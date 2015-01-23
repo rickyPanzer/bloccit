@@ -64,3 +64,5 @@ gem 'figaro', '1.0'
 gem 'annotate'
 
 gem 'pundit'
+
+gem 'redcarpet'
