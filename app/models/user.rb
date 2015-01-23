@@ -29,11 +29,7 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable, :confirmable
 
-<<<<<<< HEAD
-  has_many :posts         
-=======
   has_many :posts
->>>>>>> adding-pundit
 
   def admin?
     role == 'admin'
@@ -42,10 +38,6 @@ class User < ActiveRecord::Base
   def moderator?
     role == 'moderator'
   end
-<<<<<<< HEAD
-
-end
-=======
                
 end
->>>>>>> adding-pundit
+
